@@ -7,14 +7,14 @@ public class Ejercicio10 {
 
 		int nota;
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Introduzca el número ");
+		System.out.println("Introduzca el nÃºmero ");
 		System.out.println("1.- 0 < 5");
 		System.out.println("2. nota = 5 ");
 		System.out.println("3. nota = 6");
 		System.out.println("4. nota=7");
 		System.out.println("5. nota =10");
 
-		nota = scan.nextInt;
+		nota = scan.nextByte;
 		switch (nota) {
 
 		case 1:
@@ -28,10 +28,13 @@ public class Ejercicio10 {
 			break;
 		case 4:
 			System.out.println("Notable");
+			break;
 		case 5:
 			System.out.println("Sobresaliente");
+			break;
 		default:
-			System.out.println("No hay opción");
+			System.out.println("No hay opciÃ³n");
+			break;
 		}
 	}
 }
