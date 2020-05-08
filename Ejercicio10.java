@@ -14,7 +14,7 @@ public class Ejercicio10 {
 		System.out.println("4. nota=7");
 		System.out.println("5. nota =10");
 
-		nota = scan.nextByte;
+		nota = scan.nextInt;
 		switch (nota) {
 
 		case 1:
