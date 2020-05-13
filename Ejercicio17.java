@@ -15,7 +15,7 @@ public class Ejercicio17 {
 			
 			}
 		else {
-			System.out.println("Su sueldo es: "+sueldo);
+			
 		}
 		
 	}
