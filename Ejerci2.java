@@ -4,7 +4,7 @@ public class Ejerci2 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		int num;
+		int num,n=1;
 		System.out.println("Ingresa un número");
 		num = scan.nextInt();
 
