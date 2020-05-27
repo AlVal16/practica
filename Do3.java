@@ -14,7 +14,7 @@ public class Do3 {
 			
 		do {
 			num=scan.nextInt();
-		
+		i++;
 		cont++;
 		suma=cont+num;
 		System.out.println("Ingrese número"+cont);
