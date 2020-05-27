@@ -10,16 +10,16 @@ public class Do3 {
 	    i=0;
 	    
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Ingrese cantidad de números ");
+		System.out.println("Ingrese cantidad de nÃºmeros ");
 			
 		do {
 			num=scan.nextInt();
 		
 		cont++;
 		suma=cont+num;
-		System.out.println("Ingrese número"+cont);
+		System.out.println("Ingrese nÃºmero"+cont);
 		}
-		while( num>i);
+		while(i<=num);
 		System.out.println("La suma es "+suma);
 	}
 
