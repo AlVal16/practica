@@ -4,21 +4,20 @@ public class DoTar1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int dinero, n, suma,i;
-		
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Ingresar meses");
-		n= scan.nextInt();
-		suma = 0;
-		i=1;
+		int aho, mes, dinero;
+		aho=0;
+		mes=1;		
+		Scanner scan=new Scanner (System.in);
+		System.out.println("Ingrese monto ");
 		do {
-			System.out.println("Ingrese cantidad");
-			dinero = scan.nextInt();
-			suma = suma + dinero;
-			i++;
-		} while (i<= n);
-
-		System.out.println("El dinero total es :  "+suma);
-
+			dinero=scan.nextInt();
+			aho=aho+dinero;
+			mes=mes+1;
+			System.out.println("Ahorro del mes  " +mes+ " : "+dinero);
+			System.out.println("Ingrese el monto ");
+			//instrucciones
+		}while(mes<=12);
+		System.out.println(" El ahorro final es "+aho);
 	}
+
 }
