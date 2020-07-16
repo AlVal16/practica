@@ -6,16 +6,21 @@ public class Principal {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+			// TODO Auto-generated method stub
 
-		Estudiante estudio=new Estudiante();
-		estudio.setNombre("Alma");
-		estudio.setApellido("Valer");
-		estudio.setEdad(23);
-		estudio.setCodigoEstudiante(1620629);
-		estudio.setNotafinal(20);
-		
-		estudio.mostrar();
+		Portatil p=new Portatil();
+		p.setCodigo(23456);
+		p.setPeso(1.25);
+		p.setPrecio(12.345);
+		p.slogan();
+		p.mostrar();
+	
+		Computadora c=new Computadora();
+		c.setCodigo(28372);
+		c.setPrecio(9.500);
+		c.setDescripcion(2321);
+		c.slogan();
+		c.mostrar();
 	}
 
 }
