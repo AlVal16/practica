@@ -6,21 +6,19 @@ public class Principal {
 	}
 
 	public static void main(String[] args) {
-			// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
+		CelPhone pho=new CelPhone();
+		pho.dialNumber();
+		pho.isCallnProgress();
+		
+		LandlinePhone Ll=new LandlinePhone();
+		Ll.dialNumber();
+		Ll.isCallnProgress();
+		
+		VideoPhone vi=new VideoPhone();
+		vi.dialNumber();
+		vi.isCallnProgress();
 
-		Portatil p=new Portatil();
-		p.setCodigo(23456);
-		p.setPeso(1.25);
-		p.setPrecio(12.345);
-		p.slogan();
-		p.mostrar();
-	
-		Computadora c=new Computadora();
-		c.setCodigo(28372);
-		c.setPrecio(9.500);
-		c.setDescripcion(2321);
-		c.slogan();
-		c.mostrar();
 	}
 
 }
